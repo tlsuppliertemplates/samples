@@ -1,0 +1,5 @@
+@media screen and (max-width: 599px) and (min-width: 30px) {
+    .right_symbol span img{
+        position: relative !important;
+    }
+}

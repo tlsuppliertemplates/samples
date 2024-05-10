@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <title>Scroll Animation</title>
+    <style>
+    body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.scroll-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    overflow: hidden; /* Hide content initially */
+}
+
+.content {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s, transform 0.8s;
+}
+
+.content.show {
+    opacity: 1;
+    transform: translat
+
+}
+    </style>
+</head>
+<body>
+    <section class="scroll-section">
+        <div class="content">
+            <h1>Your Content Goes Here</h1>
+            <!-- Add more content as needed -->
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                     Services
+                    </a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">About Us</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"> Who we are</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">What we do</a>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link">Contact Us</a>
+                </li>
+              </ul>  <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                     Services
+                    </a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">About Us</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"> Who we are</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">What we do</a>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link">Contact Us</a>
+                </li>
+              </ul>  <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                     Services
+                    </a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">About Us</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"> Who we are</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">What we do</a>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link">Contact Us</a>
+                </li>
+              </ul>  <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                     Services
+                    </a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">About Us</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"> Who we are</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">What we do</a>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link">Contact Us</a>
+                </li>
+              </ul>  <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                     Services
+                    </a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">About Us</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"> Who we are</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">What we do</a>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link">Contact Us</a>
+                </li>
+              </ul>  <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                     Services
+                    </a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">About Us</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"> Who we are</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">What we do</a>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link">Contact Us</a>
+                </li>
+              </ul>  <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                     Services
+                    </a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">About Us</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"> Who we are</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">What we do</a>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link">Contact Us</a>
+                </li>
+              </ul>  <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                     Services
+                    </a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">About Us</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"> Who we are</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">What we do</a>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link">Contact Us</a>
+                </li>
+              </ul>  <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                     Services
+                    </a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">About Us</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"> Who we are</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">What we do</a>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link">Contact Us</a>
+                </li>
+              </ul>  <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                     Services
+                    </a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">About Us</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"> Who we are</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">What we do</a>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link">Contact Us</a>
+                </li>
+              </ul>  <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                     Services
+                    </a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">About Us</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"> Who we are</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">What we do</a>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link">Contact Us</a>
+                </li>
+              </ul>  <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                     Services
+                    </a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">About Us</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"> Who we are</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">What we do</a>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link">Contact Us</a>
+                </li>
+              </ul>
+        </div>
+    </section>
+    <script>
+       document.addEventListener("DOMContentLoaded", function () {
+    const content = document.querySelector(".content");
+
+    window.addEventListener("scroll", function () {
+        const scrollY = window.scrollY;
+        const scrollSection = document.querySelector(".scroll-section");
+
+        if (scrollY > scrollSection.offsetTop - 200) {
+            content.classList.add("show");
+        } else {
+            content.classList.remove("show");
+        }
+    });
+});
+
+
+    </script>
+</body>
+</html>
